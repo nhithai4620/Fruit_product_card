@@ -17,7 +17,7 @@
                         <i class="fa fa-share-alt"></i>
                         <i class="fa fa-heart"></i>
                     </div>
-                    <img src="./image/apple-slice.png" alt="">
+                    <img id="apple-img" src="./image/apple-slice.png" alt="">
                 </div>
                 <div class="photo-ablum">
                     <ul>
@@ -48,13 +48,13 @@
             <div class="variant">
                 <h3>SELECT A COLOR</h3>
                 <ul>
-                    <li onclick="changeGreen()"><img src="./image/green-apple2 (1).png"></li>
-                    <li onclick="changeYellow()"><img src="./image/yellow-apple.png"></li>
-                    <li onclick="changeOrange()"><img src="./image/orange-apple.png"></li>
-                    <li onclick="changeRed()"><img src="./image/red-apple.png"></li>
+                    <li  onclick="changeGreen()"><img  src="./image/green-apple2 (1).png"></li>
+                    <li  onclick="changeYellow()"><img  src="./image/yellow-apple.png"></li>
+                    <li  onclick="changeOrange()"><img src="./image/orange-apple.png"></li>
+                    <li  onclick="changeRed()"><img src="./image/red-apple.png"></li>
                 </ul>
             </div>
-
+#82853f#82853f
             <div class="description">
                 <h3>BENEFITS</h3>
                 <ul>
@@ -69,5 +69,23 @@
         </div>
 
     </section>
+    <script>
+        function changeGreen(){
+            document.getElementById("apple-img").src = "./image/apple-slice.png";
+        }
+
+        function changeYellow(){
+            document.getElementById("apple-img").src = "./image/apple-yellow-slice.png";
+        }
+
+        function changeOrange(){
+            document.getElementById("apple-img").src = "./image/apple-orange-slice.png";
+        }
+
+        function changeRed(){
+            document.getElementById("apple-img").src = "./image/apple-red-slice.png";
+        }
+
+    </script>
 </body>
 </html>

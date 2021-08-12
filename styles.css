@@ -54,7 +54,7 @@ img{
 .photo_main{
     border-radius: 6px 6px 0 0;
     background-color: #9be010;
-    background: radial-gradient(#e5f89e, #96e001);
+    background: radial-gradient(#ddebaa, #96e001);
 }
 
 .photo_main .controls{
@@ -140,7 +140,7 @@ img{
     cursor: pointer;
 }
 
-.variant li:first-child, .variant li:hover{
+.variant li:hover{
     border: 1px solid #a6a6a6;
 }
 
