@@ -54,7 +54,7 @@
                     <li  onclick="changeRed()"><img src="./image/red-apple.png"></li>
                 </ul>
             </div>
-#82853f#82853f
+
             <div class="description">
                 <h3>BENEFITS</h3>
                 <ul>
@@ -70,20 +70,30 @@
 
     </section>
     <script>
+        const img_background = document.querySelector(".photo_main");
+        const body = document.querySelector("body");
         function changeGreen(){
             document.getElementById("apple-img").src = "./image/apple-slice.png";
+            img_background.style.background = "radial-gradient(#ddebaa, #96e001)";
+            body.style.background = '#01e37f';
         }
 
         function changeYellow(){
             document.getElementById("apple-img").src = "./image/apple-yellow-slice.png";
+            img_background.style.background = "radial-gradient(#eaebaa, #d5e001)";
+            body.style.background = '#e3cc01';
         }
 
         function changeOrange(){
             document.getElementById("apple-img").src = "./image/apple-orange-slice.png";
+            img_background.style.background = "radial-gradient(#ebd4aa, #e09201)";
+            body.style.background = '#e37601';
         }
 
         function changeRed(){
             document.getElementById("apple-img").src = "./image/apple-red-slice.png";
+            img_background.style.background = "radial-gradient(#f0b9b4, #f5623d)";
+            body.style.background = '#e33601';
         }
 
     </script>
